@@ -11,29 +11,21 @@
   overflow:hidden;
   margin:auto;
   }
-
 .grid div{
   height:40px;
   width:30px;
-
-
   }
-
 .egg{
   background-color: #303032;
   border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
   }
-
 .brick{
   background-color: #303032;
-
 }
-
 .last-brick-left{
   border-radius: 0 5px 5px 0}
 .last-brick-right{
   border-radius:  5px 0 0 5px;}
-
 .disappear{
  position:relative;
   background :var(--background);
@@ -57,21 +49,16 @@
   bottom:35%;
   left:35%;
   border-radius:45%;
-
-
   }
-
 @keyframes example {
   from {opacity: 1;}
   to {opacity: 0;}
 }
-
 .basket{
   background-color:var(--dark);
   z-index:10;
   position:relative;
   }
-
 .basket:before{
   content:"";
   position:absolute;
@@ -80,9 +67,7 @@
   width:30px;
   background-color:pink;
   z-index:10;
-
 }
-
 #lives{
   display:flex;
   flex-wrap:wrap;
