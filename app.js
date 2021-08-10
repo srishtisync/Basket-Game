@@ -235,14 +235,3 @@ function control (e) {
     }
   }
 }
-
-/* setInterval(touch, 100)
-function touch () {
-  for (var j = 0; j < squares.length; j++) {
-    if (squares[j + 20].classList.contains('basket')) {
-      squares[j].classList.remove('egg')
-      squares[j].classList.remove('taken')
-      squares[j].classList.remove('disappear')
-    }
-  }
-} */
